@@ -22,7 +22,7 @@ class EventService {
     return [];
   }
 
-//hàm lưu một sự kiện vào localstore
+//hàm lưu một sự kiện vào trong localstore
   Future<void> saveEvent(EventModel item) async {
     //Nếu id không tồn tại(tạo mới) thì lấy một id ngẫu nhiên
     item.id ??= db.collection(path).doc().id;
