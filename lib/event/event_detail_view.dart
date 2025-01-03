@@ -89,7 +89,7 @@ class _EventDetailViewState extends State<EventDetailView> {
             children: [
               TextField(
                 controller: subjectController,
-                decoration: const InputDecoration(labelText: 'Tên sự kiện'),
+                decoration: const InputDecoration(labelText: 'Tênn sự kiện'),
               ),
               const SizedBox(height: 16),
               ListTile(
